@@ -67,13 +67,25 @@ export default function Home() {
               <div className="relative aspect-[4/5] max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-br from-[var(--coral)]/20 to-[var(--mint)]/20 rounded-3xl transform rotate-3"></div>
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl h-full">
-                  <Image
-                    src="/images/products/gold-vial.png"
-                    alt="Forever Slim - Fiala Peptidi Dimagranti Premium"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
+                  <picture>
+                    <source
+                      srcSet="/images/products/gold-vial-640.avif 640w, /images/products/gold-vial-1024.avif 1024w"
+                      type="image/avif"
+                      sizes="(max-width: 640px) 100vw, 400px"
+                    />
+                    <source
+                      srcSet="/images/products/gold-vial-640.webp 640w, /images/products/gold-vial-1024.webp 1024w"
+                      type="image/webp"
+                      sizes="(max-width: 640px) 100vw, 400px"
+                    />
+                    <Image
+                      src="/images/products/gold-vial-1024.webp"
+                      alt="Forever Slim - Fiala Peptidi Dimagranti Premium"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </picture>
                 </div>
               </div>
               {/* Floating badge */}
