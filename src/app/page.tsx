@@ -71,18 +71,13 @@ export default function Home() {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl h-full">
                   <picture>
                     <source
-                      srcSet="/images/products/gold-vial-640.avif 640w, /images/products/gold-vial-1024.avif 1024w"
-                      type="image/avif"
-                      sizes="(max-width: 640px) 100vw, 400px"
-                    />
-                    <source
-                      srcSet="/images/products/gold-vial-640.webp 640w, /images/products/gold-vial-1024.webp 1024w"
+                      srcSet="/images/products/real-vial-640.webp 640w, /images/products/real-vial-1024.webp 1024w, /images/products/real-vial-1920.webp 1920w"
                       type="image/webp"
                       sizes="(max-width: 640px) 100vw, 400px"
                     />
                     <Image
-                      src="/images/products/gold-vial-1024.webp"
-                      alt="Forever Slim - Protocollo Retatrutide"
+                      src="/images/products/real-vial-1024.webp"
+                      alt="Forever Slim GLP-3 RT 10mg - Fiala Swiss Research"
                       fill
                       className="object-cover"
                       priority
@@ -778,8 +773,8 @@ export default function Home() {
             <div className="card-premium border-2 border-gray-100 text-center">
               <div className="relative w-32 h-32 mx-auto mb-4">
                 <Image
-                  src="/images/products/gold-vial-640.webp"
-                  alt="Forever Slim Kit 1 Mese"
+                  src="/images/products/real-vial-640.webp"
+                  alt="Forever Slim Kit 1 Mese - Fiala GLP-3 RT 10mg"
                   fill
                   className="object-contain"
                 />
@@ -825,10 +820,10 @@ export default function Home() {
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 gradient-coral-mint text-white px-6 py-1.5 rounded-full text-sm font-semibold">
                 PIÙ SCELTO
               </div>
-              <div className="relative w-40 h-32 mx-auto mb-4 mt-2">
+              <div className="relative w-48 h-36 mx-auto mb-4 mt-2">
                 <Image
-                  src="/images/products/box-stacked-640.webp"
-                  alt="Forever Slim Kit 3 Mesi"
+                  src="/images/products/real-kit-box-640.webp"
+                  alt="Forever Slim Kit 3 Mesi - Box Premium con Fiala e Acqua Batteriostatica"
                   fill
                   className="object-contain"
                 />
