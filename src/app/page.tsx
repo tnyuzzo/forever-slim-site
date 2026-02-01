@@ -578,8 +578,109 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quality Section */}
+      <section id="qualita" className="py-20 md:py-28 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="inline-block bg-[var(--mint-light)] text-[var(--teal)] px-4 py-2 rounded-full text-sm font-medium mb-4">
+                Qualità Certificata
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-[var(--dark)] mb-6">
+                Perché Forever Slim e Non &quot;Qualcosa di Simile&quot; Online
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Potresti trovare peptidi su Telegram, forum o siti esteri a prezzi inferiori. Ma un liofilizzato può sembrare identico a un altro — la differenza è in ciò che <strong>non vedi</strong>: metalli pesanti, residui di sintesi, endotossine batteriche.
+              </p>
+              <p className="text-gray-600 mb-8">
+                <strong>Risparmiare €100 su qualcosa che somministri nel tuo corpo ogni settimana non è un risparmio. È una scommessa sulla tua salute.</strong>
+              </p>
+
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-[var(--mint)] flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-[var(--teal)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-[var(--dark)]">Purezza &gt;99% Certificata</h4>
+                    <p className="text-gray-600 text-sm">Analisi HPLC da laboratori indipendenti ISO 17025</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-[var(--mint)] flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-[var(--teal)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-[var(--dark)]">Produzione GMP</h4>
+                    <p className="text-gray-600 text-sm">Standard farmaceutici svizzeri, dosaggio esatto garantito</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-[var(--mint)] flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-[var(--teal)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-[var(--dark)]">Test Sterilità e Contaminanti</h4>
+                    <p className="text-gray-600 text-sm">Endotossine &lt;0.5 EU/mg, metalli pesanti non rilevati</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Comparison Table */}
+            <div className="bg-gray-50 rounded-3xl p-8">
+              <h3 className="text-xl font-bold text-[var(--dark)] mb-6 text-center">Confronto Qualità</h3>
+              <div className="space-y-4">
+                <div className="grid grid-cols-4 gap-2 text-sm font-medium text-gray-500 pb-2 border-b">
+                  <div></div>
+                  <div className="text-center">Grey Market</div>
+                  <div className="text-center">Penne Estere</div>
+                  <div className="text-center text-[var(--teal)]">Forever Slim</div>
+                </div>
+                <div className="grid grid-cols-4 gap-2 text-sm items-center">
+                  <div className="text-gray-600">Origine</div>
+                  <div className="text-center text-red-400">❌ Sconosciuta</div>
+                  <div className="text-center text-red-400">❌ Non tracciabile</div>
+                  <div className="text-center text-green-500">✓ GMP Svizzera</div>
+                </div>
+                <div className="grid grid-cols-4 gap-2 text-sm items-center">
+                  <div className="text-gray-600">Purezza</div>
+                  <div className="text-center text-red-400">❌ ?</div>
+                  <div className="text-center text-yellow-500">~ Variabile</div>
+                  <div className="text-center text-green-500">✓ &gt;99%</div>
+                </div>
+                <div className="grid grid-cols-4 gap-2 text-sm items-center">
+                  <div className="text-gray-600">Test</div>
+                  <div className="text-center text-red-400">❌ Zero</div>
+                  <div className="text-center text-red-400">❌ Zero</div>
+                  <div className="text-center text-green-500">✓ Certificati</div>
+                </div>
+                <div className="grid grid-cols-4 gap-2 text-sm items-center">
+                  <div className="text-gray-600">Supporto</div>
+                  <div className="text-center text-red-400">❌ Zero</div>
+                  <div className="text-center text-red-400">❌ Zero</div>
+                  <div className="text-center text-green-500">✓ Dedicato</div>
+                </div>
+                <div className="grid grid-cols-4 gap-2 text-sm items-center">
+                  <div className="text-gray-600">Garanzia</div>
+                  <div className="text-center text-red-400">❌ Zero</div>
+                  <div className="text-center text-red-400">❌ Zero</div>
+                  <div className="text-center text-green-500">✓ 30 giorni</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
-      <section id="testimonianze" className="py-20 md:py-28 bg-white">
+      <section id="testimonianze" className="py-20 md:py-28 gradient-hero">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <span className="inline-block bg-[var(--coral-light)] text-[var(--coral)] px-4 py-2 rounded-full text-sm font-medium mb-4">
