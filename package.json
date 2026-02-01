@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "image:optimize": "node scripts/optimize-images.mjs",
+    "image:optimize:products": "node scripts/optimize-images.mjs products",
+    "image:optimize:hero": "node scripts/optimize-images.mjs hero"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",
