@@ -71,12 +71,12 @@ export default function Home() {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl h-full">
                   <picture>
                     <source
-                      srcSet="/images/products/real-vial-640.webp 640w, /images/products/real-vial-1024.webp 1024w, /images/products/real-vial-1920.webp 1920w"
+                      srcSet="/images/products/vial-final-640.webp 640w, /images/products/vial-final-1024.webp 1024w, /images/products/vial-final-1920.webp 1920w"
                       type="image/webp"
                       sizes="(max-width: 640px) 100vw, 400px"
                     />
                     <Image
-                      src="/images/products/real-vial-1024.webp"
+                      src="/images/products/vial-final-1024.webp"
                       alt="Forever Slim GLP-3 RT 10mg - Fiala Swiss Research"
                       fill
                       className="object-cover"
@@ -773,7 +773,7 @@ export default function Home() {
             <div className="card-premium border-2 border-gray-100 text-center">
               <div className="relative w-32 h-32 mx-auto mb-4">
                 <Image
-                  src="/images/products/real-vial-640.webp"
+                  src="/images/products/vial-final-640.webp"
                   alt="Forever Slim Kit 1 Mese - Fiala GLP-3 RT 10mg"
                   fill
                   className="object-contain"
@@ -822,7 +822,7 @@ export default function Home() {
               </div>
               <div className="relative w-48 h-36 mx-auto mb-4 mt-2">
                 <Image
-                  src="/images/products/real-kit-box-640.webp"
+                  src="/images/products/kit-final-640.webp"
                   alt="Forever Slim Kit 3 Mesi - Box Premium con Fiala e Acqua Batteriostatica"
                   fill
                   className="object-contain"
